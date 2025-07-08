@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+	title="Grow purchasing power, protect your margins"
+	subtitle="B2B embedded financing solutions that accelerate credit approvals and empower your customers to buy more while safeguarding your profits."
+	centered={true}
+	customers={[
+		{
+			name: "Michael Chen",
+			position: "Operations Director",
+			imageSrc: "/generated/image-a-professional-middle-aged-businessman-w.webp"
+		},
+		{
+			name: "Sarah Thompson",
+			position: "Finance Manager",
+			imageSrc: "/generated/image-a-professional-businesswoman-with-a-conf.webp"
+		},
+		{
+			name: "David Rodriguez",
+			position: "VP of Sales",
+			imageSrc: "/generated/image-a-professional-businessman-with-a-confid.webp"
+		},
+		{
+			name: "Emily Johnson",
+			position: "Procurement Lead",
+			imageSrc: "/generated/image-a-professional-businesswoman-with-a-conf.webp"
+		},
+		{
+			name: "Robert Wilson",
+			position: "CEO",
+			imageSrc: "/generated/image-a-mature-professional-businessman-with-a.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/caterpillar.com',
+		'https://logo.clearbit.com/grainger.com',
+		'https://logo.clearbit.com/sysco.com',
+		'https://logo.clearbit.com/johndeere.com'
+	]}
+/>
 
 <Summary
 	generating
