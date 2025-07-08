@@ -24,18 +24,18 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
+			title: "Shape the Future of Finance",
+			description: "Build cutting-edge embedded financing solutions that transform how B2B businesses extend credit and accelerate growth.",
 			icon: IconBriefcase
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
+			title: "Accelerated Growth",
+			description: "Join a high-growth fintech revolutionizing credit approvals from days to minutes. Your career will move as fast as our technology.",
 			icon: IconUsers
 		},
 		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
+			title: "Industry-Leading Impact",
+			description: "Work with iconic brands like Volvo Trucks, Acer, and industry leaders. Your work directly drives business transformation.",
 			icon: IconHeart
 		}
 	];
@@ -126,64 +126,61 @@
 			position: "Senior Developer",
 			company: "Engineering Team",
 			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"At Credix, I'm building technology that transforms how businesses access credit. The pace of innovation is incredible - we're constantly pushing the boundaries of what's possible in fintech. What I love most is the collaborative culture where everyone's voice matters, and the growth opportunities are endless.",
+			image: "/generated/image-a-professional-portrait-of-an-asian-male.webp"
 		},
 		{
 			name: "Priya Sharma",
 			position: "Product Designer",
 			company: "Design Team",
 			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"Working on embedded financing solutions for iconic brands like Volvo Trucks and Acer has been incredibly rewarding. The company invests heavily in our professional development, and I've grown from a junior designer to leading major product initiatives in just two years. The work environment is both challenging and supportive.",
+			image: "/generated/image-a-professional-portrait-of-a-south-asian.webp"
 		},
 		{
 			name: "Marcus Johnson",
 			position: "Marketing Lead",
 			company: "Marketing Team",
 			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"Credix's mission to accelerate B2B credit approvals from days to minutes is genuinely exciting to be part of. The leadership genuinely cares about work-life balance while maintaining our high standards. I've had amazing mentorship opportunities and the chance to shape our go-to-market strategy with industry leaders.",
+			image: "/generated/image-a-professional-portrait-of-an-african-am.webp"
 		}
 	];
 
 	const processSteps = [
 		{
 			step: 1,
-			title: "Apply",
+			title: "Apply & Screen",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Submit your application with resume and portfolio. Our team will review your background and conduct an initial screening call."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "Technical & Cultural Assessment",
+			description: "Meet with hiring managers and team members for technical evaluation and cultural fit assessment to ensure mutual alignment."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Final Interview & Offer",
+			description: "Complete final interviews with leadership, receive your offer, and join our mission to transform B2B financing."
 		}
 	];
 
 	const values = [
 		{
 			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "Speed & Excellence",
+			description: "We deliver sub-2 minute credit approvals and maintain 99.9% uptime. Excellence at speed is our standard."
 		},
 		{
 			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "Customer-Centric Innovation",
+			description: "Every solution we build drives real business impact - increasing purchasing power while protecting margins."
 		},
 		{
 			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Trusted Partnership",
+			description: "We're the trusted partner to industry leaders, providing 24/7 support and 100% credit limit lift guarantees."
 		}
 	];
 </script>
@@ -191,15 +188,14 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	generating
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Build the future of B2B financing"
+	subtitle="Join Credix and help transform how businesses access credit. We're building embedded financing solutions that empower companies to grow their purchasing power while protecting margins. Be part of a team that delivers sub-2 minute approvals and partners with iconic brands."
+	imageSrc="/generated/image-a-diverse-team-of-professionals-engaged-.webp"
 />
 
 <!-- Why Join Us Section -->
-<section class={SECTION_BASE_CLASSES} generating>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+<section class={SECTION_BASE_CLASSES}>
+	<SectionHeader title="Why join Credix?" subtitle="Build your career while revolutionizing B2B financing" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -209,12 +205,12 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<Testimonials testimonials={employeeTestimonials} generating />
+<Testimonials testimonials={employeeTestimonials} />
 
 <!-- Application Process -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
 
@@ -232,7 +228,7 @@
 	</div>
 </section>
 <!-- Current Openings Section -->
-<section class={GRADIENT_BG_CLASSES} generating>
+<section class={GRADIENT_BG_CLASSES}>
 	<div class="section-px section-py container mx-auto grid w-full items-start lg:grid-cols-2">
 		<SectionHeader title="Current openings" subtitle="Find your perfect role" />
 

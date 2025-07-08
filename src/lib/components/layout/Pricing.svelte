@@ -35,63 +35,63 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Embedded financing solutions that scale with you",
+		subtitle = "Choose the plan that accelerates your business growth",
+		tierNames = ["Starter", "Professional", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Monthly transaction volume",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Starter: "Up to $100K",
+					Professional: "Up to $1M",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Approval time",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					Starter: "< 2 minutes",
+					Professional: "< 2 minutes",
+					Enterprise: "< 2 minutes"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Credit limit lift",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					Starter: "Up to 50%",
+					Professional: "Up to 100%",
+					Enterprise: "100%+"
 				}
 			},
 			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
+				name: "API integrations",
 				tiers: {
 					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Professional: "Advanced",
+					Enterprise: "Custom"
+				}
+			},
+			{
+				name: "White-label checkout",
+				tiers: {
+					Starter: false,
+					Professional: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Risk management",
+				tiers: {
+					Starter: "Standard",
+					Professional: "Advanced",
+					Enterprise: "Enterprise"
 				}
 			},
 			{
 				name: "Support response time",
 				tiers: {
 					Starter: "24 hours",
-					Pro: "4 hours",
+					Professional: "4 hours",
 					Enterprise: "1 hour"
 				}
 			},
@@ -99,52 +99,82 @@ Please update features according to the company's product offering. Do not remov
 				name: "Dedicated account manager",
 				tiers: {
 					Starter: false,
-					Pro: false,
+					Professional: false,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "Platform uptime SLA",
+				tiers: {
+					Starter: "99.5%",
+					Professional: "99.9%",
+					Enterprise: "99.9%"
+				}
+			},
+			{
+				name: "Multi-currency support",
 				tiers: {
 					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Professional: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Advanced analytics",
+				tiers: {
+					Starter: "Basic",
+					Professional: "Advanced",
+					Enterprise: "Custom"
+				}
+			},
+			{
+				name: "Custom integrations",
+				tiers: {
+					Starter: false,
+					Professional: "Limited",
+					Enterprise: "Unlimited"
 				}
 			}
 		],
 		tiers = [
 			{
 				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				monthlyPrice: 499,
+				yearlyPrice: 399, // 20% savings
+				description: "Perfect for growing B2B businesses ready to offer embedded financing",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
+					"Up to $100K monthly transaction volume",
+					"< 2 minute approval times",
+					"Up to 50% credit limit lift",
+					"Basic API integrations",
+					"Standard risk management",
 					"24-hour support response time",
-					"1GB storage"
+					"99.5% uptime SLA"
 				],
 				cta: {
-					label: "Get started",
+					label: "Start free trial",
 					href: "/signup?plan=starter"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Professional",
+				monthlyPrice: 1999,
+				yearlyPrice: 1599, // 20% savings
+				description: "For established businesses scaling their B2B financing operations",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
+					"Up to $1M monthly transaction volume",
+					"< 2 minute approval times",
+					"Up to 100% credit limit lift",
+					"Advanced API integrations",
+					"White-label checkout experience",
+					"Advanced risk management",
 					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"99.9% uptime SLA",
+					"Multi-currency support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Start free trial",
+					href: "/signup?plan=professional"
 				},
 				highlight: true
 			},
@@ -152,15 +182,20 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "For industry leaders requiring custom embedded financing solutions",
 				features: [
-					"Everything in Pro",
+					"Unlimited transaction volume",
+					"< 2 minute approval times",
+					"100%+ credit limit lift",
+					"Custom API integrations",
+					"White-label checkout experience",
+					"Enterprise risk management",
 					"Dedicated account manager",
 					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"99.9% uptime SLA",
+					"Multi-currency support",
+					"Custom analytics dashboard",
+					"Unlimited custom integrations"
 				],
 				cta: {
 					label: "Contact sales",

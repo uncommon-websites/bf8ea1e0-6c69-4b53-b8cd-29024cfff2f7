@@ -17,33 +17,50 @@
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Dmitri Volkov",
+			position: "Chief Financial Officer",
+			company: "Meridian Industries",
 			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
+				"Credix delivered an immediate 40% increase in average order value while eliminating our credit risk exposure. The ROI was visible within the first quarter.",
 			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-dmitri-volkov.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Amara Okafor",
+			position: "Finance Director",
+			company: "Apex Manufacturing",
 			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
+				"The 2-minute approval process eliminated our biggest sales bottleneck. We've seen conversion rates jump to 75% since implementing Credix embedded financing.",
 			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-amara-okafor-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Kenji Nakamura",
+			position: "Operations Manager",
+			company: "Velocity Logistics",
 			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
+				"Setup was incredibly straightforward - our team was up and running in days, not months. The platform's reliability has been flawless with genuine 24/7 support.",
 			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
+				"/generated/image-a-professional-headshot-of-kenji-nakamur.webp"
 		}
 	]}
 />
 
-<CallToAction />
+<CallToAction
+	title="Transform your B2B sales today"
+	subtitle="Join industry leaders growing with Credix"
+	description="Start offering embedded financing to your customers and unlock new revenue streams. With less than 2-minute approvals, 100% credit limit lift, and 99.9% uptime, Credix empowers your business to grow customer purchasing power while protecting your margins."
+	imageSrc="/generated/image-a-business-professional-standing-in-a-mo.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Schedule a demo",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Talk to sales",
+			variant: "secondary"
+		}
+	]}
+/>
